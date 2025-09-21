@@ -70,7 +70,7 @@ const systems: SystemCard[] = [
   {
     id: 'onboarding',
     title: 'Onboarding',
-    url: '',
+    url: 'https://drive.google.com/file/d/1VvF8705C0HsE8znccscx6kw1ehjGqVOw/view?usp=sharing',
     description: 'O Onboarding, nosso processo de integração de novos colaboradores, é um encontro mensal fundamental para que os novos membros do time se sintam bem-vindos e preparados para sua jornada no APGGov. Neste momento, apresentamos nossa cultura e os pilares da organização, abordando temas essenciais como nossos fundamentos institucionais, Código de Conduta, fluxos de comunicação e informações importantes do Departamento Pessoal.',
     icon: <Users className="w-8 h-8" />,
     gradient: 'from-pink-500 to-pink-700'
