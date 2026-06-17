@@ -12,6 +12,46 @@ interface SystemCard {
 
 const systems: SystemCard[] = [
   {
+    id: 'criador-formularios',
+    title: 'Criador de Formulários Personalizáveis',
+    url: 'https://formularios-apggov.bolt.host',
+    description: 'Sistema voltado para a criação de formulários personalizáveis, permitindo estruturar perguntas, organizar campos e adaptar formulários conforme diferentes demandas internas. A ferramenta facilita a padronização da coleta de informações, tornando os processos mais ágeis, organizados e acessíveis para as equipes.',
+    icon: <Users className="w-8 h-8" />,
+    gradient: 'from-cyan-500 to-cyan-700'
+  },
+  {
+    id: 'disparo-emails',
+    title: 'Disparo de E-mails e Campanhas',
+    url: 'https://disparo-emails2.vercel.app',
+    description: 'Sistema para disparo de e-mails em massa e criação de campanhas. A plataforma permite organizar comunicações, estruturar mensagens e realizar envios para públicos específicos, apoiando ações institucionais, comunicados internos, divulgações e campanhas de relacionamento com mais controle e praticidade.',
+    icon: <Users className="w-8 h-8" />,
+    gradient: 'from-teal-500 to-teal-700'
+  },
+  {
+    id: 'gestao-vagas-admissao',
+    title: 'Gestão de Vagas e Admissão',
+    url: 'https://admissao-front-z6uz.vercel.app',
+    description: 'Sistema para gestão de vagas, candidaturas e etapas do processo admissional. A plataforma permite criar e gerenciar vagas regionais com templates Gupy, acompanhar candidatos durante provas online via Exametric, cadastrar participantes, aprovar ou reprovar candidaturas, organizar agendamentos de aulas-teste por unidade, visualizar e filtrar candidatos, enviar e-mails, acompanhar demandas docentes abertas por disciplina e unidade, além de gerenciar usuários do sistema.',
+    icon: <Users className="w-8 h-8" />,
+    gradient: 'from-violet-500 to-violet-700'
+  },
+  {
+    id: 'gestao-materiais-pedagogicos',
+    title: 'Gestão de Materiais Pedagógicos',
+    url: 'https://apg-materiais.vercel.app/login',
+    description: 'Sistema de gestão inteligente de materiais pedagógicos. A ferramenta permite solicitar, acompanhar e aprovar materiais por meio de um fluxo Kanban transparente e configurável por unidade escolar, promovendo mais organização, rastreabilidade e eficiência no atendimento às demandas pedagógicas.',
+    icon: <Users className="w-8 h-8" />,
+    gradient: 'from-lime-500 to-lime-700'
+  },
+  {
+    id: 'gestao-turmas-urania',
+    title: 'Gestão de Turmas - Urânia',
+    url: 'https://rhsistema-front.vercel.app/',
+    description: 'Sistema para gestão de turmas escolares integrado ao Urânia. A plataforma apoia a organização das turmas, o acompanhamento das informações escolares e a gestão operacional vinculada à estrutura acadêmica das unidades, contribuindo para maior controle e padronização dos dados.',
+    icon: <Users className="w-8 h-8" />,
+    gradient: 'from-rose-500 to-rose-700'
+  },
+  {
     id: 'prova-parana',
     title: 'Prova Paraná - APG Gov',
     url: 'https://prova-parana-apggov.netlify.app',
