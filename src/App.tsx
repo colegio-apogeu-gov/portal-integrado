@@ -29,7 +29,7 @@ const systems: SystemCard[] = [
   },
   {
     id: 'gestao-vagas-admissao',
-    title: 'Gestão de Vagas e Admissão',
+    title: 'RH Admissão',
     url: 'https://admissao-front-z6uz.vercel.app',
     description: 'Sistema para gestão de vagas, candidaturas e etapas do processo admissional. A plataforma permite criar e gerenciar vagas regionais com templates Gupy, acompanhar candidatos durante provas online via Exametric, cadastrar participantes, aprovar ou reprovar candidaturas, organizar agendamentos de aulas-teste por unidade, visualizar e filtrar candidatos, enviar e-mails, acompanhar demandas docentes abertas por disciplina e unidade, além de gerenciar usuários do sistema.',
     icon: <Users className="w-8 h-8" />,
@@ -45,7 +45,7 @@ const systems: SystemCard[] = [
   },
   {
     id: 'gestao-turmas-urania',
-    title: 'Gestão de Turmas - Urânia',
+    title: 'RH Sistema',
     url: 'https://rhsistema-front.vercel.app/',
     description: 'Sistema para gestão de turmas escolares integrado ao Urânia. A plataforma apoia a organização das turmas, o acompanhamento das informações escolares e a gestão operacional vinculada à estrutura acadêmica das unidades, contribuindo para maior controle e padronização dos dados.',
     icon: <Users className="w-8 h-8" />,
