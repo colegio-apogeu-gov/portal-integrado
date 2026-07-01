@@ -12,6 +12,46 @@ interface SystemCard {
 
 const systems: SystemCard[] = [
   {
+    id: 'cesta-servico',
+    title: 'Cesta de Serviço',
+    url: 'https://cesta-servico.vercel.app/',
+    description: 'Sistema para acompanhamento das cestas de serviços da rede APG Gov. A ferramenta permite consultar, monitorar e organizar informações relacionadas às cestas de serviços, apoiando o controle operacional e a transparência no acompanhamento das demandas.',
+    icon: <Users className="w-8 h-8" />,
+    gradient: 'from-amber-500 to-amber-700'
+  },
+  {
+    id: 'leitura-porte',
+    title: 'Leitura de Porte',
+    url: 'https://leitura-portes.vercel.app/',
+    description: 'Sistema para verificação da demanda em horas semanais dos colaboradores. A plataforma auxilia na análise de excesso de carga horária, identificação de vagas por área e comparação com a folha de pagamento, apoiando o acompanhamento operacional da estrutura de pessoal.',
+    icon: <Users className="w-8 h-8" />,
+    gradient: 'from-cyan-600 to-blue-700'
+  },
+  {
+    id: 'bi-rs',
+    title: 'BI R&S',
+    url: 'https://rs-gupy-apg.vercel.app/',
+    description: 'Sistema com dashboards de análise sobre recrutamento e seleção. A ferramenta apresenta informações por vaga e permite uma visão granular por candidato, utilizando dados integrados via API da Gupy para apoiar o acompanhamento dos processos seletivos.',
+    icon: <Users className="w-8 h-8" />,
+    gradient: 'from-fuchsia-500 to-fuchsia-700'
+  },
+  {
+    id: 'copa-premiada',
+    title: 'Copa Premiada',
+    url: 'https://copa-premiada-apg.vercel.app/',
+    description: 'Sistema de palpites da Copa do Mundo com premiações. A plataforma permite a participação dos colaboradores em previsões de jogos, rankings e acompanhamento das pontuações, promovendo engajamento interno de forma organizada e interativa.',
+    icon: <Users className="w-8 h-8" />,
+    gradient: 'from-green-500 to-green-700'
+  },
+  {
+    id: 'comparativo-receitas',
+    title: 'Comparativo Receitas',
+    url: 'https://receitas-folha-production.up.railway.app/',
+    description: 'Sistema para análise comparativa entre receitas SEED e folha APG. A ferramenta apoia a conferência de informações financeiras e operacionais, permitindo comparar dados de receita com a folha de pagamento para ampliar o controle e a leitura gerencial.',
+    icon: <Users className="w-8 h-8" />,
+    gradient: 'from-slate-500 to-slate-700'
+  },
+  {
     id: 'criador-formularios',
     title: 'Criador de Formulários Personalizáveis',
     url: 'https://formularios-apggov.bolt.host',
@@ -46,7 +86,7 @@ const systems: SystemCard[] = [
   {
     id: 'gestao-turmas-urania',
     title: 'RH Sistema',
-    url: 'https://rhsistema-front.vercel.app/',
+    url: 'rhsistemas.apggov.com.br',
     description: 'Sistema para gestão de turmas escolares integrado ao Urânia. A plataforma apoia a organização das turmas, o acompanhamento das informações escolares e a gestão operacional vinculada à estrutura acadêmica das unidades, contribuindo para maior controle e padronização dos dados.',
     icon: <Users className="w-8 h-8" />,
     gradient: 'from-rose-500 to-rose-700'
